@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Homepage</title>
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">Yaman's Blog</div>
+            <nav id="nvbr">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button id="search-btn" type="submit">Go</button>
+            </div>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="blog-title">
+            <h1>CANDLES BLOG</h1>
+        </div>
+        <div class="sidebar">
+            <div class="nested-grid">
+                <div class="photo-box" id="fone">
+                    <!-- Photo 1 -->
+                    <button class="photo-button">View More</button>
+                    <div id="quotes">This is photo one</div>
+                </div>
+                <div class="photo-box" id="ftwo">
+                    <!-- Photo 2 -->
+                    <button class="photo-button">View More</button>
+                </div>
+                <div class="photo-box" id="fthree">
+                    <!-- Photo 3 -->
+                    <button class="photo-button">View More</button>
+                </div>
+                <div class="photo-box" id="ffour">
+                    <!-- Photo 4 -->
+                    <button class="photo-button">View More</button>
+                </div>
+                <div class="photo-box" id="ffive">
+                    <!-- Photo 5 -->
+                    <button class="photo-button">View More</button>
+                </div>
+                <div class="photo-box" id="fsix">
+                    <!-- Photo 6 -->
+                    <button class="photo-button">View More</button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="nested-gridd">
+                <div class="boxx" id="one">HOW <br> TO <br> MAKE <br> CANDLE?</div>
+                <div class="boxx" id="two">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, consectetur eum dolor
+                        asperiores quaerat animi minus soluta accusantium ab, ut suscipit? Quidem, corporis non. Nobis
+                        aliquam cupiditate molestias voluptate alias ea quos incidunt quisquam vitae ex eveniet, odio
+                        officia eum. Nostrum eos optio error corporis earum explicabo ipsam expedita, asperiores ducimus
+                        dignissimos ea quisquam sed pariatur totam dolor quia obcaecati corrupti. Soluta, voluptatibus
+                        est. Tenetur natus dolorem repudiandae minus velit, recusandae rerum incidunt atque, et
+                        similique debitis quo sequi non ut sed enim sint praesentium temporibus. Officia dolorum quasi
+                        asperiores cupiditate autem esse dolor fugit quos earum, quaerat modi! Fugit corporis impedit a
+                        reiciendis eligendi obcaecati dolores natus totam eius maiores, recusandae beatae hic veniam!
+                        Expedita commodi et molestias ipsum, enim excepturi ipsa atque quas sed odit ratione veniam,
+                        blanditiis fuga nisi at, non sequi quis incidunt ducimus est illo. Labore qui minima magnam
+                        vitae placeat. In pariatur modi sed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sequi nobis perferendis fugit laborum,
+                sint velit excepturi tenetur doloremque corrupti animi cupiditate molestias beatae ullam eligendi sed, a
+                cumque! Minus.</p>
+            <button class="btn" hraf="#">Subscribe!</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer">
+            &copy; 2024 My Website | Designed by Yaman
+        </div>
+    </footer>
+
+    <!-- JavaScript code for navbar -->
+    <script>
+        document.querySelector('.burger').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+            document.querySelector('.search-bar').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
