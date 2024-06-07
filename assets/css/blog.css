@@ -43,6 +43,8 @@
     border-radius: 8px;
     text-align: center;
     position: relative;
+    display: flex;
+    align-items: end;
 }
 
 .photo-button {
@@ -137,6 +139,10 @@
 
 /* ------------Media Qureies------------ */
 @media (max-width: 320px) {
+    h1 {
+        font-size: 5vw;
+    }
+
     .container {
         grid-template-areas:
             "title"
@@ -144,9 +150,21 @@
             "main"
             "ft";
         grid-template-columns: 1fr;
+        padding: 10px;
     }
 
     .nested-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 321px) and(max-width: 599px) {
+    .container {
+        grid-template-areas:
+            "title"
+            "sd"
+            "main"
+            "ft";
         grid-template-columns: 1fr;
     }
 }
