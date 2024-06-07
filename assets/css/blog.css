@@ -10,6 +10,7 @@
         "sd"
         "main"
         "ft";
+        grid-template-columns: 1fr;
     gap: 20px;
     max-width: 1200px;
     margin: 20px auto;
@@ -132,9 +133,6 @@
     margin-top: 10px;
     padding: 10px 20px;
     border-radius: 8px;
-    position: relative;
-    /* bottom: 10px; */
-    /* left: 50%; */
     cursor: pointer;
 }
 
@@ -185,7 +183,7 @@
             "title title"
             "sd main"
             "ft ft";
-        grid-template-columns: 750px 450px;
+        grid-template-columns: 2.5fr 1.5fr;
     }
 
     .nested-grid {

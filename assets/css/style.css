@@ -189,6 +189,10 @@ input {
 }
 
 @media (min-width: 901px) {
+    header {
+        margin: 0;
+    }
+    
     .navbar {
         flex-direction: row;
         justify-content: space-between;
