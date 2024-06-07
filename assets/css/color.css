@@ -34,12 +34,14 @@
 
 .btn {
     background-color: #fff;
-    color: black;
+    color: black !important;
+    border: 2px solid #c2b542;
 }
 
 .btn:hover {
     background-color: #c2b542;
     color: #fff;
+    opacity: 1 !important;
 }
 
 #one,
