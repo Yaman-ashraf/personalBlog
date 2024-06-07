@@ -134,7 +134,7 @@
     border: 2px solid #c2b542;
     border-radius: 8px;
     cursor: pointer;
-    opacity: 1 important;
+    opacity: 1 !important;
 }
 
 /* ------------Media Qureies------------ */
