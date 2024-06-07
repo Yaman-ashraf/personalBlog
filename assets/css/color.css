@@ -1,0 +1,43 @@
+.blog-title h1 {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+}
+
+.blog-title {
+    background-color: #fff;
+}
+
+.sidebar {
+    background-color: #fff;
+}
+
+.photo-box {
+    background-color: #faf0e6;
+}
+
+.photo-button {
+    background-color: #fff;
+    color: black;
+    border: 2px solid #bc8f8f;
+}
+
+.photo-button:hover {
+    background-color: #bc8f8f;
+    color: #fff;
+    opacity: 1;
+}
+
+.foot {
+    background-color: #fff;
+}
+
+.btn {
+    background-color: #fff;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #c2b542;
+    color: #fff;
+}
