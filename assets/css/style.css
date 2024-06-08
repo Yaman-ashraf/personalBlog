@@ -192,7 +192,7 @@ input {
     header {
         margin: 0;
     }
-    
+
     .navbar {
         flex-direction: row;
         justify-content: space-between;
